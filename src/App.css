@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.navbardev {
+  background-color: #444;
+}
+
+.mark {
+  padding: .4rem 6rem;
+  background-color: rgba(248,192,67,.7);
+}
+
+.developer {
+  background-color: #464646;
+    margin-top: 6rem;
+}
+
+.streak1 {
+  background: #f7d27f;
+  height: 180px;
+}

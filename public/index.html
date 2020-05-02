@@ -27,9 +27,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <!-- Bootstrap core CSS -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="../assets/css/mdb.min.css" rel="stylesheet">
+    <link href="assets/css/mdb.min.css" rel="stylesheet">
     <title>Go-Junrey</title>
     <style>
       html,
@@ -67,14 +67,37 @@
 
   </body>
 
-  <!-- SCRIPTS -->
-
   <!-- JQuery -->
-  <script type="text/javascript " src="../assets/js/jquery-3.4.1.min.js "></script>
+  <script type="text/javascript " src="assets/js/jquery-3.4.1.min.js "></script>
   <!-- Bootstrap tooltips -->
-  <script type="text/javascript " src="../assets/js/popper.min.js "></script>
+  <script type="text/javascript " src="assets/js/popper.min.js "></script>
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript " src="../assets/js/bootstrap.min.js "></script>
+  <script type="text/javascript " src="assets/js/bootstrap.min.js "></script>
   <!-- MDB core JavaScript -->
-  <script type="text/javascript " src="../assets/js/mdb.min.js "></script>
+  <script type="text/javascript " src="assets/js/mdb.min.js "></script>
+
+    <!-- SCRIPTS -->
+
+    <script>
+      // initialize scrollspy
+      $('body').scrollspy({
+  
+        target: '.dotted-scrollspy'
+      });
+  
+      // initialize lightbox
+      $(function () {
+  
+        $("#mdb-lightbox-ui").load("assets/mdb-addons/mdb-lightbox-ui.html");
+      });
+  
+      $('.navbar-collapse a').click(function () {
+  
+        $(".navbar-collapse").collapse('hide');
+      });
+  
+      /* WOW.js init */
+      new WOW().init();
+  
+    </script>
 </html>
