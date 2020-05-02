@@ -4,17 +4,6 @@ class Home extends Component {
     render() {
         return (
           <div>
-          <meta charSet="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-          <title>JunreyD Portfolio</title>
-          {/* Font Awesome */}
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
-          {/* Bootstrap core CSS */}
-          <link href="../css/bootstrap.min.css" rel="stylesheet" />
-          {/* Material Design Bootstrap */}
-          <link href="../css/mdb.min.css" rel="stylesheet" />
-          <style dangerouslySetInnerHTML={{__html: "\n    html,\n    body,\n    header,\n    .jarallax {\n      height: 100%;\n    }\n\n    @media (min-width: 560px) and (max-width: 740px) {\n\n      html,\n      body,\n      header,\n      .jarallax {\n        height: 600px;\n      }\n\n    }\n\n  " }} />
           {/* Navigation & Intro */}
           <header>
             {/* Navbar */}
