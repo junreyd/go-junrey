@@ -3,6 +3,7 @@ import { BrowserRouter as Router,Link,Switch } from "react-router-dom";
 
 
 class Header extends Component {
+
     render() {
         return (
             <Router>
@@ -12,8 +13,8 @@ class Header extends Component {
                     {/* Navbar */}
                     <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar navbardev">
                     <div className="container">
-                        <a className="navbar-brand" href="/">Home</a>
-                        {/* <Link className="navbar-brand" to="/">Home</Link> */}
+                        <a className="navbar-brand" href="/"><img src={`${process.env.PUBLIC_URL}/assets/img/UpdatedLOGO.png`} alt="Logo" style={{"width": '30px', "height": '24px'}} /></a>
+                        {/* <a className="navbar-brand" href="/">Home</a> */}
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                         </button>
@@ -38,13 +39,13 @@ class Header extends Component {
                         {/* Social Icon  */}
                         <ul className="navbar-nav nav-flex-icons">
                             <li className="nav-item">
-                            <a className="nav-link"><i className="fab fa-facebook-f light-green-text-2" /></a>
+                            <a href="https://www.facebook.com/ducJunrey" target="_blank" rel="noopener noreferrer" className="nav-link"><i className="fab fa-facebook-f light-green-text-2" /></a>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link"><i className="fab fa-twitter light-green-text-2" /></a>
+                            <a href="https://twitter.com/ducjunrey" target="_blank" rel="noopener noreferrer" className="nav-link"><i className="fab fa-twitter light-green-text-2" /></a>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link"><i className="fab fa-instagram light-green-text-2" /></a>
+                            <a href="https://github.com/junreyd" target="_blank" rel="noopener noreferrer" className="nav-link"><i className="fab fa-github light-green-text-2" /></a>
                             </li>
                         </ul>
                         </div>

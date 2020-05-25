@@ -9,9 +9,7 @@ class About extends Component {
                 <section id="about" className="section feature-box mb-5">
                     {/* Section title */}
                     <h2 className="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">About <strong>me</strong></h2>
-                    <p className="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas,
-                    animi obcaecati adipisci sapiente mollitia.</p>
+                    <p className="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">“My name is Junrey Q. Ducay and I am a Graphics Designer and Web Developer from Cebu, Philippines. I live with my family and my wonderful girlfriend. I graduated in 2018 with a Bachelor’s degree in Information Technology from Salazar Colleges of Science and Institute of Technology. I serve my first graduate into freelancing full time.”</p>
                     {/* First row */}
                     <div className="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
                     {/* First column */}
