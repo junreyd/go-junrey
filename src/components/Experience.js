@@ -29,16 +29,19 @@ class Experience extends Component {
                             <div className="row"> <i className="fas fa-briefcase fa-x mb-1 mr-3 ml-3" aria-hidden="true" />
                             <h5 className="font-weight-bold mb-3">Graphic Designer and Video Animator</h5>
                             </div>
-                            <p className="font-weight-bold ml-1 dark-grey-text mb-2">January 2018 - May 2018 (1 year, 3 Month)</p>
-                            <p className="mb-0 ml-1 light-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
-                            quas, eos officia maiores ipsam ipsum dolores. </p>
+                            <span className="mb-0 ml-1 light-grey-text">Minglanilla, Cebu, Philippines</span>
+                            <p className="font-weight-bold ml-1 dark-grey-text mb-2"><strong>January 2018 - May 2018 (5 months)</strong></p>
+                            <p className="mb-0 ml-1 light-grey-text">•	Designed artwork for initial client concepts to final production preparation for various screen-printed materials.</p>
+                            <p className="mb-0 ml-1 light-grey-text">•	Collaborated and worked closely with riggers, modelers, textures, creative leads and animators to design and developed animations for various digital projects.</p>
+                            <p className="mb-0 ml-1 light-grey-text">•	Developed and designed movement animations, characters animations, facial animations, environments, special effects, and performed other story/animation tasks as requested.</p>
+                            <p className="mb-0 ml-1 light-grey-text">•	Using Adobe Photoshop, Illustrator, Premiere, After Effects, Camtasia, and iClone for animated designs, characters, and time-based visual that complied with the storyboard or visual strategy created by the agency.</p>
                         </blockquote>
                         <blockquote className="blockquote bq-warning">
                             <div className="row"> <i className="fas fa-briefcase fa-x mb-1 mr-3 ml-3" aria-hidden="true" />
                             <h5 className="font-weight-bold mb-3">Web developer (Intern)</h5>
                             </div>
-                            <span className="mb-0 ml-1 light-grey-text">LGU Municipality of Bantayan</span>
-                            <p className="font-weight-bold ml-1 dark-grey-text mb-2"><strong>Nov. 2015 – March. 2016</strong></p>
+                            <span className="mb-0 ml-1 light-grey-text">LGU Municipality of Bantayan Is., Cebu, Philippines</span>
+                            <p className="font-weight-bold ml-1 dark-grey-text mb-2"><strong>Nov. 2015 – March. 2016 (5 months)</strong></p>
                             <p className="mb-0 ml-1 light-grey-text">•	Solely responsible for creating and designing municipal website blog.</p>
                             <p className="mb-0 ml-1 light-grey-text">•	Carry out quality assurance tests to discover errors and optimize usability.</p>
                             <p className="mb-0 ml-1 light-grey-text">•	Redesigned existing website to improve user experience and incorporated SEO techniques thereby increasing daily traffic by 30%.</p>
