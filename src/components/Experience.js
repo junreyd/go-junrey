@@ -27,9 +27,9 @@ class Experience extends Component {
                         </blockquote>
                         <blockquote className="blockquote bq-warning mt-1 mb-4">
                             <div className="row"> <i className="fas fa-briefcase fa-x mb-1 mr-3 ml-3" aria-hidden="true" />
-                            <h5 className="font-weight-bold mb-3">JavaScript developer</h5>
+                            <h5 className="font-weight-bold mb-3">Graphic Designer and Video Animator</h5>
                             </div>
-                            <p className="font-weight-bold ml-1 dark-grey-text mb-2">March 2011 - June 2012 (1 year, 3 Month)</p>
+                            <p className="font-weight-bold ml-1 dark-grey-text mb-2">January 2018 - May 2018 (1 year, 3 Month)</p>
                             <p className="mb-0 ml-1 light-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
                             quas, eos officia maiores ipsam ipsum dolores. </p>
                         </blockquote>
