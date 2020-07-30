@@ -161,10 +161,6 @@ class Experience extends Component {
                         <div className="md-progress">
                             <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
                         </div>
-                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">SQL server 2012</p>
-                        <div className="md-progress">
-                            <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
-                        </div>
                         <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Java</p>
                         <div className="md-progress">
                             <div className="progress-bar" role="progressbar" style={{width: '70%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
