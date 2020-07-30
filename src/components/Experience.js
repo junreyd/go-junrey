@@ -101,25 +101,89 @@ class Experience extends Component {
                             <strong>Skills</strong></h4>
                         </div>
                         {/* Description */}
-                        <p className="black-text text-uppercase font-weight-bold" align="justify">Java Script</p>
+                        <p className="black-text text-uppercase font-weight-bold" align="justify">JavaScript</p>
                         <div className="md-progress">
-                            <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                            <div className="progress-bar" role="progressbar" style={{width: '100%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
                         </div>
                         <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">CSS3</p>
                         <div className="md-progress">
-                            <div className="progress-bar" role="progressbar" style={{width: '65%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                            <div className="progress-bar" role="progressbar" style={{width: '100%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
                         </div>
                         <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">HTML5</p>
                         <div className="md-progress">
-                            <div className="progress-bar" role="progressbar" style={{width: '75%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                            <div className="progress-bar" role="progressbar" style={{width: '100%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
                         </div>
-                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Bootstrap</p>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">WordPress</p>
                         <div className="md-progress">
-                            <div className="progress-bar" role="progressbar" style={{width: '45%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                            <div className="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
                         </div>
-                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">PHP</p>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">SharePoint</p>
                         <div className="md-progress">
-                            <div className="progress-bar" role="progressbar" style={{width: '53%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                            <div className="progress-bar" role="progressbar" style={{width: '100%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Angular JS</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">React JS</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '85%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Vue JS</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '85%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Node JS</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Laravel</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">CodeIgniter</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Firebase</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">MySQL</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '95%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">MongoDB</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '80%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">SQL server 2012</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">SQL server 2012</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Java</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '70%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Ionic</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '70%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Adobe Photoshop</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Adobe Illustrator</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
+                        </div>
+                        <p className="black-text text-uppercase font-weight-bold pt-3" align="justify">Adobe After Effects</p>
+                        <div className="md-progress">
+                            <div className="progress-bar" role="progressbar" style={{width: '90%'}} aria-valuenow={25} aria-valuemin={0} aria-valuemax={100} />
                         </div>
                         </div>
                         {/* Second column */}
