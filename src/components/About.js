@@ -40,7 +40,7 @@ class About extends Component {
                         <div className="card card-body hoverable">
                         <i className="fas fa-pencil-alt fa-3x mb-4" aria-hidden="true" />
                         <h5 className="font-weight-bold text-uppercase mb-4">Designer</h5>
-                        <p className="dark-grey-text">Good design is good business.</p>
+                        <p className="dark-grey-text">Well-designed websites offer much more than just aesthetics. Good design is good business.</p>
                         </div>
                         {/* Panel */}
                     </div>
