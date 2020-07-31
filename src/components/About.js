@@ -18,7 +18,7 @@ class About extends Component {
                         <div className="card card-body hoverable">
                         <i className="fas fa-laptop fa-3x mb-4" aria-hidden="true" />
                         <h5 className="font-weight-bold text-uppercase mb-4">Freelancer</h5>
-                        <p className="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p className="dark-grey-text">Maximize your business with modern software technology.</p>
                         </div>
                         {/* Panel */}
                     </div>
@@ -29,7 +29,7 @@ class About extends Component {
                         <div className="card card-body yellow hoverable">
                         <i className="fas fa-code fa-3x mb-4" aria-hidden="true" />
                         <h5 className="font-weight-bold text-uppercase mb-4">Developer</h5>
-                        <p className="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p className="dark-grey-text">I'm a reliable develop high end web application for your business.</p>
                         </div>
                         {/* Panel */}
                     </div>
@@ -40,7 +40,7 @@ class About extends Component {
                         <div className="card card-body hoverable">
                         <i className="fas fa-pencil-alt fa-3x mb-4" aria-hidden="true" />
                         <h5 className="font-weight-bold text-uppercase mb-4">Designer</h5>
-                        <p className="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p className="dark-grey-text">Good design is good business.</p>
                         </div>
                         {/* Panel */}
                     </div>
