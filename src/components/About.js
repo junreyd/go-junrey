@@ -29,7 +29,7 @@ class About extends Component {
                         <div className="card card-body yellow hoverable">
                         <i className="fas fa-code fa-3x mb-4" aria-hidden="true" />
                         <h5 className="font-weight-bold text-uppercase mb-4">Developer</h5>
-                        <p className="dark-grey-text">I'm a reliable develop high end web application for your business.</p>
+                        <p className="dark-grey-text">I'm a professional who develop high end web application for your business.</p>
                         </div>
                         {/* Panel */}
                     </div>
