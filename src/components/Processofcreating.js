@@ -10,9 +10,7 @@ class Processofcreating extends Component {
                     {/* Section title */}
                     <h2 className="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Process of
                     <strong>creating</strong></h2>
-                    <p className="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s"> Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores reiciendis ad voluptas,
-                    animi obcaecati adipisci sapiente mollitia.</p>
+                    <p className="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">When you think of building a website, your thoughts rotate around two main issues – price and time. These two values depend largely on the size and scope of the project. To outline the whole development process, you can create a website development timeline, adding tasks, and establishing milestones for your project. It is the best way to track your project implementation to make sure you keep up with the deadline.</p>
                     {/* Nav tabs */}
                     <ul className="nav md-tabs nav-justified blue" role="tablist">
                     <li className="nav-item">
@@ -34,9 +32,7 @@ class Processofcreating extends Component {
                         <div className="col-2 text-center"> <i className="fas fa-search fa-3x mb-1 grey-text" aria-hidden="true" />
                         </div>
                         <div className="col-9 mb-2">
-                            <p className="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam
-                            minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur.
-                            Tempora, placeat ratione porro voluptate odit minima.</p>
+                            <p className="dark-grey-text">This stage, the stage of discovering and researching, determines how the subsequent steps will look like. The most important task at this point is to get a clear understanding of your future website purposes, the main goals you wish to get, and the target audience you want to attract to your site. Such kind of a website development questionnaire helps to develop the best strategy for further project management. A well-described and detailed plan based on this pre-development data can protect you from spending extra resources on solving the unexpected issues such as design changing or adding the functionality that wasn’t initially planned.</p>
                         </div>
                         </div>
                     </div>
@@ -48,10 +44,7 @@ class Processofcreating extends Component {
                         <div className="col-2 text-center"> <i className="fas fa-pencil-alt fa-3x mb-1 grey-text" aria-hidden="true" />
                         </div>
                         <div className="col-9 mb-2">
-                            <p className="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam
-                            minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur.
-                            Tempora, placeat ratione porro voluptate odit minima. Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.</p>
+                            <p className="dark-grey-text">During the design phase, website takes shape. All the visual content, such as images, photos, and videos is created at this step. It can be a graphic sketch or an actual graphic design. The primary function of the layout is to represent the information structure, visualize the content, and demonstrate the basic functionality. </p>
                         </div>
                         </div>
                     </div>
@@ -62,10 +55,7 @@ class Processofcreating extends Component {
                         <div className="row mt-2">
                         <div className="col-2 text-center"> <i className="fas fa-code fa-3x mb-1 grey-text" aria-hidden="true" /> </div>
                         <div className="col-9 mb-2">
-                            <p className="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam
-                            minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur.
-                            Tempora, placeat ratione porro voluptate odit minima. Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit.</p>
+                            <p className="dark-grey-text">At this step, finally start creating the website itself. Frameworks and CMS should be implemented to make sure that the server can handle the installation and set-up smoothly. All static web page elements that were designed during the mock-up and layout creation should be created and tested. Project should be agile and flexible enough to have a possibility to change the website according to users’ feedback or spirit of the time.</p>
                         </div>
                         </div>
                     </div>
