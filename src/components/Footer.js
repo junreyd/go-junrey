@@ -14,13 +14,13 @@ class Footer extends Component {
                         <h5 className="h5-responsive wow fadeIn" data-wow-delay="0.2s">Just send me a message!</h5>
                     </li>
                     <li>
-                        <h5 className="h5-responsive wow fadeIn" data-wow-delay="0.2s">Just send me a message!</h5>
+                    <p className="text-center w-responsive mx-auto wow fadeIn my-5">
+                    Made with <i className="fas fa-heart"></i>&nbsp;
+                    <span>React JS</span>
+                    </p>
                     </li>
                     </ul>
                 </div>
-                </div>
-                <div className="footer-copyright text-center py-3">Made with <i className="fas fa-heart"></i>&nbsp;
-                    <span>React JS</span>
                 </div>
                 {/* Customers carousel */}
                 {/* Scrollspy */}

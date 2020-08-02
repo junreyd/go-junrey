@@ -11,9 +11,7 @@ class Myprojects extends Component {
                 <h2 className="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">My <strong>projects</strong>
                 </h2>
                 {/* Section description */}
-                <p className="text-center w-responsive mx-auto wow fadeIn my-5">Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit. Quia iste provident, voluptatum voluptatibus aut modi aspernatur autem impedit, eius, debitis earum
-                  voluptatem. Quaerat hic aspernatur laborum magni earum. At, officiis!</p>
+                <p className="text-center w-responsive mx-auto wow fadeIn my-5">Some of my projects I developed </p>
                 {/* First row */}
                 <div className="row wow fadeIn" data-wow-delay="0.4s">
                   {/* First column */}
@@ -22,24 +20,36 @@ class Myprojects extends Component {
                     <div id="mdb-lightbox-ui" />
                     <div className="mdb-lightbox">
                       <figure className="col-md-4">
-                        <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg" data-size="1600x1067">
-                          <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg" className="img-fluid z-depth-1" />
+                        <a href={`${process.env.PUBLIC_URL}/assets/img/scsit1.png`} data-size="1600x1067">
+                          <img src={`${process.env.PUBLIC_URL}/assets/img/scsit1.png`} className="img-fluid z-depth-1" />
                         </a>
+                        <p className="text-center w-responsive mx-auto wow fadeIn my-5">
+                        <a href="https://github.com/junreyd/scsit" data-size="1600x1067">https://github.com/junreyd/scsit</a>
+                        </p>
                       </figure>
                       <figure className="col-md-4">
-                        <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(66).jpg" data-size="1600x1067">
-                          <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(66).jpg" className="img-fluid z-depth-1" />
+                        <a href={`${process.env.PUBLIC_URL}/assets/img/ccstalentnight.png`} data-size="1600x1067">
+                          <img src={`${process.env.PUBLIC_URL}/assets/img/ccstalentnight.png`} className="img-fluid z-depth-1" />
                         </a>
+                        <p className="text-center w-responsive mx-auto wow fadeIn my-5">
+                        <a href="https://github.com/junreyd/ccstalentnight" data-size="1600x1067">https://github.com/junreyd/ccstalentnight</a>
+                        </p>
                       </figure>
                       <figure className="col-md-4">
-                        <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(65).jpg" data-size="1600x1067">
-                          <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(65).jpg" className="img-fluid z-depth-1" />
+                        <a href={`${process.env.PUBLIC_URL}/assets/img/ogtong.png`} data-size="1600x1067">
+                          <img src={`${process.env.PUBLIC_URL}/assets/img/ogtong.png`} className="img-fluid z-depth-1" />
                         </a>
+                        <p className="text-center w-responsive mx-auto wow fadeIn my-5">
+                        <a href="https://github.com/junreyd/ogtong" data-size="1600x1067">https://github.com/junreyd/ogtong</a>
+                        </p>
                       </figure>
                       <figure className="col-md-4">
-                        <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(67).jpg" data-size="1600x1067">
-                          <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" className="img-fluid z-depth-1" />
+                        <a href={`${process.env.PUBLIC_URL}/assets/img/scsitfeedback.png`} data-size="1600x1067">
+                          <img src={`${process.env.PUBLIC_URL}/assets/img/scsitfeedback.png`} className="img-fluid z-depth-1" />
                         </a>
+                        <p className="text-center w-responsive mx-auto wow fadeIn my-5">
+                        <a href="https://github.com/junreyd/sitfeedback" data-size="1600x1067">https://github.com/junreyd/sitfeedback</a>
+                        </p>
                       </figure>
                       <figure className="col-md-4">
                         <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(68).jpg" data-size="1600x1067">
