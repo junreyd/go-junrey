@@ -13,6 +13,9 @@ class Footer extends Component {
                     <li>
                         <h5 className="h5-responsive wow fadeIn" data-wow-delay="0.2s">Just send me a message!</h5>
                     </li>
+                    <li>
+                        <h5 className="h5-responsive wow fadeIn" data-wow-delay="0.2s">Just send me a message!</h5>
+                    </li>
                     </ul>
                 </div>
                 </div>
