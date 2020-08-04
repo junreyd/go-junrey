@@ -11,7 +11,7 @@ class Myprojects extends Component {
                 <h2 className="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">My <strong>projects</strong>
                 </h2>
                 {/* Section description */}
-                <p className="text-center w-responsive mx-auto wow fadeIn my-5">Some of my projects I developed </p>
+                {/* <p className="text-center w-responsive mx-auto wow fadeIn my-5">Some of my projects I developed </p> */}
                 {/* First row */}
                 <div className="row wow fadeIn" data-wow-delay="0.4s">
                   {/* First column */}
@@ -50,31 +50,6 @@ class Myprojects extends Component {
                         <p className="text-center w-responsive mx-auto wow fadeIn my-5">
                         <a href="https://github.com/junreyd/sitfeedback" data-size="1600x1067">https://github.com/junreyd/sitfeedback</a>
                         </p>
-                      </figure>
-                      <figure className="col-md-4">
-                        <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(68).jpg" data-size="1600x1067">
-                          <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(68).jpg" className="img-fluid z-depth-1" />
-                        </a>
-                      </figure>
-                      <figure className="col-md-4">
-                        <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(64).jpg" data-size="1600x1067">
-                          <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(64).jpg" className="img-fluid z-depth-1" />
-                        </a>
-                      </figure>
-                      <figure className="col-md-4">
-                        <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(69).jpg" data-size="1600x1067">
-                          <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(69).jpg" className="img-fluid z-depth-1" />
-                        </a>
-                      </figure>
-                      <figure className="col-md-4">
-                        <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(59).jpg" data-size="1600x1067">
-                          <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(59).jpg" className="img-fluid z-depth-1" />
-                        </a>
-                      </figure>
-                      <figure className="col-md-4">
-                        <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(70).jpg" data-size="1600x1067">
-                          <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(70).jpg" className="img-fluid z-depth-1" />
-                        </a>
                       </figure>
                     </div>
                     {/* Lightbox */}

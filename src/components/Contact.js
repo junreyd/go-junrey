@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
+import swal from 'sweetalert';
 
 class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { message: '', name: '', email: '', subject: '' };
+    this.handleChange = this.handleChange.bind(this);
+	  this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
     render() {
         return (
             <div>
@@ -20,21 +28,19 @@ class Contact extends Component {
                 <h2 className="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Contact <strong>me</strong>
                 </h2>
                 {/* Section sescription */}
-                <p className="text-center w-responsive mx-auto mb-5 pb-4 wow fadeIn" data-wow-delay="0.2s">Lorem ipsum dolor sit
-                  amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis
-                  totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. </p>
+                <p className="text-center w-responsive mx-auto mb-5 pb-4 wow fadeIn" data-wow-delay="0.2s">Whether it's project you want to talk about or just want some advice feel free to contact me, I'm best contacted by sending a message below or direct to my email. But you can use any other service you like. Hey, come on don't be shy give it a try. </p>
                 <div className="row wow fadeIn" data-wow-delay="0.4s">
                   {/* First column */}
                   <div className="col-md-8 mb-5">
-                    <form>
+                    <form className="needs-validation" novalidate>
                       {/* First row */}
                       <div className="row">
                         {/* First column */}
                         <div className="col-md-6">
                           <div className="md-form mb-0">
                             <div className="md-form mb-0">
-                              <input type="text" id="form41" className="form-control" />
-                              <label htmlFor="form41" className>Your name</label>
+                              <input type="text" id="form41" className="form-control" value={this.state.name} name="name" onChange={(event)=>this.handleChange(event, "name")} required  />
+                              <label for="form41" className>Your name</label>
                             </div>
                           </div>
                         </div>
@@ -42,7 +48,7 @@ class Contact extends Component {
                         <div className="col-md-6">
                           <div className="md-form mb-0">
                             <div className="md-form mb-0">
-                              <input type="text" id="form52" className="form-control" />
+                              <input type="text" id="form52" className="form-control" value={this.state.email} name="email" onChange={(event)=>this.handleChange(event, "email")} required />
                               <label htmlFor="form52" className>Your email</label>
                             </div>
                           </div>
@@ -53,7 +59,7 @@ class Contact extends Component {
                       <div className="row">
                         <div className="col-md-12">
                           <div className="md-form mb-0">
-                            <input type="text" id="form51" className="form-control" />
+                            <input type="text" id="form51" name="subject" className="form-control" value={this.state.subject} onChange={(event)=>this.handleChange(event, "subject")} required />
                             <label htmlFor="form51" className>Subject</label>
                           </div>
                         </div>
@@ -64,14 +70,14 @@ class Contact extends Component {
                         {/* First column */}
                         <div className="col-md-12">
                           <div className="md-form mb-0">
-                            <textarea type="text" id="form76" className="md-textarea form-control" rows={3} defaultValue={""} />
+                            <textarea type="text" id="form76" className="md-textarea form-control" rows={3} value={this.state.message} defaultValue={""} name="message" onChange={(event)=>this.handleChange(event, "message")} required />
                             <label htmlFor="form76">Your message</label>
                           </div>
                         </div>
                       </div>
                       {/* Third row */}
                     </form>
-                    <div className="text-center text-md-left mt-4"> <a className="btn btn-primary">Send</a> </div>
+                    <div className="text-center text-md-left mt-4"> <a className="btn btn-primary" onClick={this.handleSubmit}>Send</a> </div>
                   </div>
                   {/* First column */}
                   {/* Second column */}
@@ -95,6 +101,42 @@ class Contact extends Component {
             </div>
             </div>
         );
+    }
+
+    
+    handleChange(evt, field) {
+    this.setState({ [field]: evt.target.value });
+  }
+
+  handleSubmit (event) {
+  event.preventDefault();
+
+  console.log(this.state.message);
+  if (!this.state.message || !this.state.name || !this.state.email || !this.state.subject) {
+    alert("All fields are required!")
+  } else {
+    const templateId = 'template_ajNbnATr';
+    this.sendFeedback(templateId, {message_html: this.state.message, from_name: this.state.name, reply_to: this.state.email, subject_to: this.state.subject})
+    this.setState({
+      message: '',
+      name: '',
+      email: '',
+      subject: ''
+    });
+  }
+  
+  }
+
+  sendFeedback (templateId, variables) {
+    window.emailjs.send(
+      'gmail', templateId,
+      variables
+      ).then(res => {
+        console.log('Email successfully sent!')
+        swal("Awesome!", "Your message was successfully sent!", "success");
+      })
+      // Handle errors here however you like, or use a React error boundary
+      .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
     }
 }
 

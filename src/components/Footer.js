@@ -15,7 +15,7 @@ class Footer extends Component {
                     </li>
                     <li>
                     <p className="text-center w-responsive mx-auto wow fadeIn my-5">
-                    Made with <i className="fas fa-heart"></i>&nbsp;
+                    Made with <i className="fas fa-heart" style={{color:'red'}}></i>&nbsp;
                     <span>React JS</span>
                     </p>
                     </li>
