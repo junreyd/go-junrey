@@ -8,7 +8,7 @@ import Myprojects from './components/Myprojects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import { BrowserRouter as Router,Route,Switch } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (

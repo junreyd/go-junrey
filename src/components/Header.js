@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router,Link,Switch } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 
 class Header extends Component {
@@ -52,7 +52,7 @@ class Header extends Component {
                     </div>
                     </nav>
                     {/* Intro Section */}
-                    <div id="home" className="view jarallax" data-jarallax="{&quot;speed&quot;: 0.2}" style={{backgroundImage: `url('https://blog.hubspot.com/hubfs/html-css-javascript.jpg')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center center'}}>
+                    <div id="home" className="jarallax" data-speed="{0.2}" style={{backgroundImage: `url('https://blog.hubspot.com/hubfs/html-css-javascript.jpg')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center center'}}>
                     <div className="mask rgba-white-strong">
                         <div className="container h-100 d-flex justify-content-center align-items-center">
                         <div className="row smooth-scroll">
@@ -61,7 +61,7 @@ class Header extends Component {
                                 <h1 className="display-2 mb-4 dark-grey-text wow fadeIn">I am <strong>Junrey D</strong></h1>
                                 <h5 className="text-uppercase font-weight-bold wow fadeIn" data-wow-delay="0.4s"><mark className="mark">Web developer &amp;
                                     graphic designer</mark></h5>
-                                <a href="#about" className="btn btn-floating btn-large wow fadeIn developer" data-wow-delay="0.4s" data-offset={100}><i className="fas fa-angle-down" aria-hidden="true" /></a>
+                                <a href="#about" className="btn btn-floating btn-large wow fadeIn developer" data-wow-delay="0.4s" data-offset={100}><i className="fas fa-angle-down" aria-hidden="true" /> </a>
                             </div>
                             </div>
                         </div>

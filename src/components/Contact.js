@@ -32,7 +32,7 @@ class Contact extends Component {
                 <div className="row wow fadeIn" data-wow-delay="0.4s">
                   {/* First column */}
                   <div className="col-md-8 mb-5">
-                    <form className="needs-validation" novalidate>
+                    <form>
                       {/* First row */}
                       <div className="row">
                         {/* First column */}
@@ -40,7 +40,7 @@ class Contact extends Component {
                           <div className="md-form mb-0">
                             <div className="md-form mb-0">
                               <input type="text" id="form41" className="form-control" value={this.state.name} name="name" onChange={(event)=>this.handleChange(event, "name")} required  />
-                              <label for="form41" className>Your name</label>
+                              <label htmlFor="form41">Your name</label>
                             </div>
                           </div>
                         </div>
@@ -49,7 +49,7 @@ class Contact extends Component {
                           <div className="md-form mb-0">
                             <div className="md-form mb-0">
                               <input type="text" id="form52" className="form-control" value={this.state.email} name="email" onChange={(event)=>this.handleChange(event, "email")} required />
-                              <label htmlFor="form52" className>Your email</label>
+                              <label htmlFor="form52">Your email</label>
                             </div>
                           </div>
                         </div>
@@ -60,7 +60,7 @@ class Contact extends Component {
                         <div className="col-md-12">
                           <div className="md-form mb-0">
                             <input type="text" id="form51" name="subject" className="form-control" value={this.state.subject} onChange={(event)=>this.handleChange(event, "subject")} required />
-                            <label htmlFor="form51" className>Subject</label>
+                            <label htmlFor="form51">Subject</label>
                           </div>
                         </div>
                       </div>
@@ -70,14 +70,15 @@ class Contact extends Component {
                         {/* First column */}
                         <div className="col-md-12">
                           <div className="md-form mb-0">
-                            <textarea type="text" id="form76" className="md-textarea form-control" rows={3} value={this.state.message} defaultValue={""} name="message" onChange={(event)=>this.handleChange(event, "message")} required />
+                            <textarea type="text" id="form76" className="md-textarea form-control" rows={3} value={this.state.message} name="message" onChange={(event)=>this.handleChange(event, "message")} required />
                             <label htmlFor="form76">Your message</label>
                           </div>
                         </div>
                       </div>
                       {/* Third row */}
                     </form>
-                    <div className="text-center text-md-left mt-4"> <a className="btn btn-primary" onClick={this.handleSubmit}>Send</a> </div>
+                    <div className="text-center text-md-left mt-4">
+                      <a href="/#" className="btn btn-primary" onClick={this.handleSubmit}> Send</a></div>
                   </div>
                   {/* First column */}
                   {/* Second column */}
@@ -111,7 +112,6 @@ class Contact extends Component {
   handleSubmit (event) {
   event.preventDefault();
 
-  console.log(this.state.message);
   if (!this.state.message || !this.state.name || !this.state.email || !this.state.subject) {
     alert("All fields are required!")
   } else {

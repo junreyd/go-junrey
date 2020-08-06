@@ -21,7 +21,7 @@ class Myprojects extends Component {
                     <div className="mdb-lightbox">
                       <figure className="col-md-4">
                         <a href={`${process.env.PUBLIC_URL}/assets/img/scsit1.png`} data-size="1600x1067">
-                          <img src={`${process.env.PUBLIC_URL}/assets/img/scsit1.png`} className="img-fluid z-depth-1" />
+                          <img src={`${process.env.PUBLIC_URL}/assets/img/scsit1.png`} className="img-fluid z-depth-1" alt="" />
                         </a>
                         <p className="text-center w-responsive mx-auto wow fadeIn my-5">
                         <a href="https://github.com/junreyd/scsit" data-size="1600x1067">https://github.com/junreyd/scsit</a>
@@ -29,7 +29,7 @@ class Myprojects extends Component {
                       </figure>
                       <figure className="col-md-4">
                         <a href={`${process.env.PUBLIC_URL}/assets/img/ccstalentnight.png`} data-size="1600x1067">
-                          <img src={`${process.env.PUBLIC_URL}/assets/img/ccstalentnight.png`} className="img-fluid z-depth-1" />
+                          <img src={`${process.env.PUBLIC_URL}/assets/img/ccstalentnight.png`} className="img-fluid z-depth-1" alt="" />
                         </a>
                         <p className="text-center w-responsive mx-auto wow fadeIn my-5">
                         <a href="https://github.com/junreyd/ccstalentnight" data-size="1600x1067">https://github.com/junreyd/ccstalentnight</a>
@@ -37,7 +37,7 @@ class Myprojects extends Component {
                       </figure>
                       <figure className="col-md-4">
                         <a href={`${process.env.PUBLIC_URL}/assets/img/ogtong.png`} data-size="1600x1067">
-                          <img src={`${process.env.PUBLIC_URL}/assets/img/ogtong.png`} className="img-fluid z-depth-1" />
+                          <img src={`${process.env.PUBLIC_URL}/assets/img/ogtong.png`} className="img-fluid z-depth-1" alt="" />
                         </a>
                         <p className="text-center w-responsive mx-auto wow fadeIn my-5">
                         <a href="https://github.com/junreyd/ogtong" data-size="1600x1067">https://github.com/junreyd/ogtong</a>
@@ -45,7 +45,7 @@ class Myprojects extends Component {
                       </figure>
                       <figure className="col-md-4">
                         <a href={`${process.env.PUBLIC_URL}/assets/img/scsitfeedback.png`} data-size="1600x1067">
-                          <img src={`${process.env.PUBLIC_URL}/assets/img/scsitfeedback.png`} className="img-fluid z-depth-1" />
+                          <img src={`${process.env.PUBLIC_URL}/assets/img/scsitfeedback.png`} className="img-fluid z-depth-1" alt="" />
                         </a>
                         <p className="text-center w-responsive mx-auto wow fadeIn my-5">
                         <a href="https://github.com/junreyd/sitfeedback" data-size="1600x1067">https://github.com/junreyd/sitfeedback</a>
