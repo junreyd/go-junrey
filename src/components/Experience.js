@@ -23,7 +23,7 @@ class Experience extends Component {
                             <h5 className="font-weight-bold mb-3">SharePoint Developer</h5>
                             </div>
                             <span className="mb-0 ml-1 light-grey-text">House of IT - Mandaue, Cebu, Philippines</span>
-                            <p className="font-weight-bold ml-1 dark-grey-text mb-2"><strong>August 2018 - Present</strong></p>
+                            <p className="font-weight-bold ml-1 dark-grey-text mb-2"><strong>August 2018 - October 2020</strong></p>
                             <p className="mb-0 ml-1 light-grey-text">•	Developed chat box using third party firebase, to handle real-time data read and write.</p>
                             <p className="mb-0 ml-1 light-grey-text">•	Trained Total Quality Management (TQM) members in internal web functions, including steps on how to independently make minor updates or changes.</p>
                             <p className="mb-0 ml-1 light-grey-text">•	Writing cross-browser compliant XHTML, CSS & JavaScript.</p>
