@@ -58,7 +58,7 @@ class Experience extends Component {
                             <div className="row"> <i className="fas fa-briefcase fa-x mb-1 mr-3 ml-3" aria-hidden="true" />
                             <h5 className="font-weight-bold mb-3">Web developer</h5>
                             </div>
-                            <span className="mb-0 ml-1 light-grey-text">Attention Grabbing Media (AGM) - Clearwater, Florida, USA - Home Based</span>
+                            <span className="mb-0 ml-1 light-grey-text">RBNX Factor - Putte, Belgium - Home Based</span>
                             <p className="font-weight-bold ml-1 dark-grey-text mb-2"><strong>June 2018 - August 2018 (3 months)</strong></p>
                             <p className="mb-0 ml-1 light-grey-text">•	Developing websites that have a consistent feel and look throughout all web properties.</p>
                             <p className="mb-0 ml-1 light-grey-text">•	Providing technical support to end users.</p>
